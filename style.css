@@ -44,6 +44,12 @@ h1 {
   text-transform: capitalize;
 }
 
+.bg-img {
+  background-image: url("images/bg-image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 img {
   width: 300px;
 }
