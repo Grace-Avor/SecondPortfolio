@@ -1,16 +1,70 @@
+.root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  --bg-primary: #202020;
+  --bg-secondary: #1b1b1b;
+  --bg-footer: #282323;
+  --primary-color: #e5e5e5;
+  --secodary-color: #f65282;
+  --border-radius: 50px;
+  --section-margin: 100px;
+  --gallery-margin: 40px;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: 0.1em;
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
 }
 
-.fab,
-.far {
+.nav-link a {
+  color: var(--primary-color);
+}
+
+.apps-link a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+img {
+  width: 300px;
+}
+
+.image {
+  height: 400px;
+}
+
+.center {
+  text-align: center;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.1em;
 }
 
-.fab {
-  font-family: "Font Awesome 5 Brands";
+button {
+  border: none;
+  border-radius: 10px;
 }
