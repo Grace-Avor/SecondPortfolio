@@ -11,6 +11,12 @@
   --gallery-margin: 40px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-size: 100px;
@@ -52,10 +58,20 @@ h1 {
 
 img {
   width: 300px;
+  margin: 0;
+  padding: 0;
 }
 
 .image {
   height: 400px;
+}
+
+.image-div {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 30px;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .center {
@@ -73,4 +89,14 @@ img {
 button {
   border: none;
   border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  .image-div {
+    display: grid;
+    grid-template-columns: 300px;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
 }
