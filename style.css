@@ -19,47 +19,41 @@ body {
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 100px;
-  font-weight: 700;
+  font-size: 900px;
+  font-weight: 900;
   line-height: 84px;
   letter-spacing: 0.1em;
-}
-
-.navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
-}
-
-.nav-link a {
-  color: var(--primary-color);
-}
-
-.apps-link a {
-  border-radius: 4px;
-  padding: 20px 15px;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-}
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
-.bg-img {
-  background-image: url("images/bg-image2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 img {
   width: 300px;
   margin: 0;
   padding: 0;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 50px;
+  padding: 20px 0px;
+  background: #282323;
+}
+
+.navbar {
+  background: #202020;
+}
+
+.bg {
+  background-color: #1b1b1b;
+}
+
+.bg-img {
+  background-image: url("images/bg-image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .image {
@@ -69,7 +63,7 @@ img {
 .image-div {
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  gap: 30px;
+  gap: 60px;
   justify-content: center;
   margin: 0 auto;
 }
@@ -86,9 +80,30 @@ img {
   letter-spacing: 0.1em;
 }
 
-button {
-  border: none;
-  border-radius: 10px;
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons span a {
+  color: #fff;
+}
+
+/* About Me page*/
+.flex-this {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  color: #f65282;
 }
 
 @media (max-width: 800px) {
@@ -98,5 +113,17 @@ button {
     gap: 10px;
     margin: 0px;
     padding: 0px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-this {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
