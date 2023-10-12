@@ -42,70 +42,6 @@ footer {
   background: #282323;
 }
 
-.navbar {
-  background: #202020;
-}
-
-.bg {
-  background-color: #1b1b1b;
-}
-
-.bg-img {
-  background-image: url("images/bg-image2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.image {
-  height: 400px;
-}
-
-.image-div {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  gap: 60px;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.center {
-  text-align: center;
-}
-
-.name {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0.1em;
-}
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.icons span a {
-  color: #fff;
-}
-
-/* About Me page*/
-.flex-this {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 30px;
-}
-
-.main-image img {
-  width: 100%;
-  height: auto;
-}
-
-.about {
-  color: #f65282;
-}
-
 .hambuger {
   display: block;
   position: relative;
@@ -168,11 +104,96 @@ footer {
   width: fit-content;
 }
 
-/*Contact me page*/
-.contact-icons {
-  width: 10px;
+.navbar {
+  background: #202020;
 }
 
+.bg {
+  background-color: #1b1b1b;
+}
+
+.bg-img {
+  background-image: url("images/bg-image2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons span a {
+  color: #fff;
+}
+
+.gal-link {
+  color: #000;
+}
+
+.gal:hover,
+.gal-link:hover {
+  background-color: #f65282;
+  color: #fff;
+  transition: 240ms ease-in-out;
+}
+
+a.nav-link,
+a.nav-link:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+a.nav-link:active {
+  color: #f65282;
+}
+
+/*gallery page*/
+.image {
+  height: 400px;
+}
+
+.image-div {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  gap: 60px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+}
+
+/* About Me page*/
+.flex-this {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about {
+  color: #f65282;
+}
+
+/*Contact me page*/
+.contact-icons {
+  width: 15px;
+}
 
 @media (max-width: 800px) {
   .image-div {
