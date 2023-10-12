@@ -190,6 +190,10 @@ a.nav-link:active {
   color: #f65282;
 }
 
+.contact-link {
+  color: #000;
+}
+
 /*Contact me page*/
 .contact-icons {
   width: 15px;
