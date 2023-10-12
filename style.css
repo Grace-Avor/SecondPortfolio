@@ -145,9 +145,10 @@ footer {
   position: fixed;
   top: 0;
   left: 100%;
-  width: 50%;
+  width: 100%;
   min-height: 100vh;
-  padding-top: 120px;
+  padding-top: 100px;
+  margin-top: 50px;
   transition: 0.4s;
   z-index: 98;
   background-color: #202020;
@@ -166,6 +167,12 @@ footer {
   padding: 6px 8px;
   width: fit-content;
 }
+
+/*Contact me page*/
+.contact-icons {
+  width: 10px;
+}
+
 
 @media (max-width: 800px) {
   .image-div {
